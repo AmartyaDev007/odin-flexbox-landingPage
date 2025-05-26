@@ -5,6 +5,7 @@
     font-size: 18px;
 }
 
+
 .top-navbar {
     background-color: #1F2937;
     color: white;
@@ -61,4 +62,9 @@ buton {
 .info-image-subtext {
     display: flex;
     
+}
+
+.info-img {
+    max-width: 100px;
+    max-height: 100px;
 }
