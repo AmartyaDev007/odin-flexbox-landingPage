@@ -5,44 +5,59 @@
     font-size: 18px;
 }
 
+body {
+    margin: 0;
+}
 
 .top-navbar {
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-around;
-
-}
-
-.main-details {
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 200px;
 }
 
 
 .header-links {
     display: flex;
     list-style-type: none;
-    gap: 8px;
-
+    gap: 40px;
+    padding: 0;
 }
 
-img {
-    /* TEMP */
-    max-width: 200px;
-    max-height: 200px
+.header-logo {
+    align-self: center;
+}
+
+.main-details {
+    padding: 80px 200px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    flex-shrink: 1;
 }
 
 .main-about {
-    max-width: 400px;
+    max-width: 600px;
 }
+
+.sign-up-top {
+    margin-top: auto;
+}
+
 
 #main-heading {
     font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
+    margin: 0;
 }
 
 #main-text {
@@ -50,21 +65,32 @@ img {
     color: #F9FAF8;
 }
 
+/* REMOVE ME  */
 
-.information {
 
+.all-info-images {
+    display: flex;
 }
 
-buton {
-    color: #3882F6
+button {
+    background-color: #3882F6;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+    padding: 4px 20px;
 }
 
 .info-image-subtext {
     display: flex;
-    
+
+    flex-direction: column;
+    max-width: 200px;
 }
 
 .info-img {
     max-width: 100px;
     max-height: 100px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 12px;
 }
