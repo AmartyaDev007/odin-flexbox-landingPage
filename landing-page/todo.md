@@ -1,3 +1,4 @@
 - [ ] Add quote section 
 - [ ] change title name
 - [ ] add footer section
+- [ ] give image credits of main image

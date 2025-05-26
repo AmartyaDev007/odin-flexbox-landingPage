@@ -2,6 +2,7 @@
 
 *  { 
     font-family: Roboto, sans-serif;
+    font-size: 18px;
 }
 
 .top-navbar {
@@ -16,6 +17,7 @@
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: space-around;
 }
 
 
@@ -30,4 +32,28 @@ img {
     /* TEMP */
     max-width: 200px;
     max-height: 200px
+}
+
+.main-about {
+    max-width: 400px;
+}
+
+#main-heading {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+#main-text {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+
+.information {
+
+}
+
+buton {
+    color: #3882F6
 }
