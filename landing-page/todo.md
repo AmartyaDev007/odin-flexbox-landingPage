@@ -1,0 +1,3 @@
+- [ ] Add quote section 
+- [ ] change title name
+- [ ] add footer section
