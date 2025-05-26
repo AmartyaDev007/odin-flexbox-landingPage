@@ -8,15 +8,26 @@
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: space-around;
 
 }
 
 .main-details {
     background-color: #1F2937;
     color: white;
-}
-
-.header-links {
     display: flex;
 }
 
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+
+}
+
+img {
+    /* TEMP */
+    max-width: 200px;
+    max-height: 200px
+}
