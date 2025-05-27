@@ -67,6 +67,10 @@ body {
 
 /* REMOVE ME  */
 
+.information {
+    padding-bottom: 50px;
+}
+
 .info-title p {
     text-align: center;
     font-size: 36px;
@@ -107,3 +111,30 @@ button {
 .info-image-subtext P {
     text-align: center;
 }
+
+/* REMOVE ME THIRD SECTION */
+
+.quote {
+    width: 100%;
+    height: 300px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 800px;
+    margin: 0;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 700;
+    margin: 0;
+}
+
