@@ -185,3 +185,12 @@ button {
 
 /* REMOVE ME FIFTH SECTION */
 
+.copyright {
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
