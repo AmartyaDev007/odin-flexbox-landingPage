@@ -67,9 +67,18 @@ body {
 
 /* REMOVE ME  */
 
+.info-title p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 
 .all-info-images {
     display: flex;
+    justify-content: center;
+    gap: 48px;
 }
 
 button {
@@ -82,15 +91,19 @@ button {
 
 .info-image-subtext {
     display: flex;
-
     flex-direction: column;
     max-width: 200px;
 }
 
 .info-img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
     aspect-ratio: 1 / 1;
     overflow: hidden;
     border-radius: 12px;
+    border: solid #3882F6;
+}
+
+.info-image-subtext P {
+    text-align: center;
 }
